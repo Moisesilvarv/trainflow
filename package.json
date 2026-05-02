@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "verify:deploy-readiness": "node scripts/verify-deploy-readiness.mjs"
+  },
+  "devDependencies": {
+    "supabase": "^2.95.6"
+  }
+}

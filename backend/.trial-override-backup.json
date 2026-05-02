@@ -1,0 +1,70 @@
+{
+  "harmoisah@gmail.com": {
+    "capturedAt": "2026-05-01T00:00:00.000Z",
+    "user": {
+      "id": "ca944678-5ac4-462d-b767-06b24c0288ff",
+      "plan": "trial",
+      "plan_status": "active",
+      "provider": "system",
+      "trial_started_at": null,
+      "trial_ends_at": null,
+      "updated_at": "2026-05-01T07:26:58.849+00:00"
+    },
+    "coach": {
+      "id": "ca944678-5ac4-462d-b767-06b24c0288ff",
+      "plan": "trial",
+      "plan_status": "active",
+      "provider": "system",
+      "trial_started_at": null,
+      "trial_ends_at": null,
+      "updated_at": "2026-05-01T07:26:58.849+00:00"
+    },
+    "subscription": {
+      "id": "03a18dcf-bda4-47da-89c8-814477c3ccd3",
+      "user_id": "ca944678-5ac4-462d-b767-06b24c0288ff",
+      "plan": "trial",
+      "status": "trialing",
+      "provider": "system",
+      "started_at": "2026-04-29T05:49:40.483+00:00",
+      "expires_at": null,
+      "trial_started_at": "2026-04-29T05:49:40.483+00:00",
+      "trial_ends_at": "2026-05-06T05:49:40.483+00:00",
+      "updated_at": "2026-04-29T05:49:40.483+00:00"
+    }
+  },
+  "testando123@gmail.com": {
+    "capturedAt": "2026-05-01T09:04:21.778Z",
+    "user": {
+      "id": "6841d428-3817-4e7b-9cb6-93e0231aceef",
+      "email": "testando123@gmail.com",
+      "plan": "pro",
+      "plan_status": "trialing",
+      "provider": "system",
+      "trial_started_at": "2026-05-01T08:59:31.257+00:00",
+      "trial_ends_at": "2026-05-08T08:59:31.257+00:00",
+      "updated_at": "2026-05-01T09:02:26.876+00:00"
+    },
+    "coach": {
+      "id": "6841d428-3817-4e7b-9cb6-93e0231aceef",
+      "email": "testando123@gmail.com",
+      "plan": "pro",
+      "plan_status": "trialing",
+      "provider": "system",
+      "trial_started_at": "2026-05-01T08:59:31.257+00:00",
+      "trial_ends_at": "2026-05-08T08:59:31.257+00:00",
+      "updated_at": "2026-05-01T09:02:26.876+00:00"
+    },
+    "subscription": {
+      "id": "4eb7264c-4249-45dd-bb60-e7d45ce5950a",
+      "user_id": "6841d428-3817-4e7b-9cb6-93e0231aceef",
+      "plan": "pro",
+      "status": "active",
+      "provider": "system",
+      "started_at": "2026-04-23T09:02:23.282645+00:00",
+      "expires_at": "2026-04-30T09:02:23.282645+00:00",
+      "trial_started_at": "2026-04-23T09:02:23.282645+00:00",
+      "trial_ends_at": "2026-04-30T09:02:23.282645+00:00",
+      "updated_at": "2026-05-01T08:59:31.257+00:00"
+    }
+  }
+}
