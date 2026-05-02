@@ -10,18 +10,23 @@ function requiredEnv(key, message) {
   return value;
 }
 
+function normalizeApiBaseUrl(url) {
+  const trimmedUrl = String(url || '').trim().replace(/\/+$/, '');
+  return trimmedUrl.endsWith('/api') ? trimmedUrl : `${trimmedUrl}/api`;
+}
+
 export function getApiBaseUrl() {
   const configuredApiUrl = readEnv('VITE_API_URL');
 
   if (configuredApiUrl) {
-    return configuredApiUrl;
+    return normalizeApiBaseUrl(configuredApiUrl);
   }
 
   if (import.meta.env.PROD) {
     throw new Error('VITE_API_URL nao configurada. Defina a URL publica do backend antes do deploy.');
   }
 
-  return 'http://localhost:4002/api';
+  return normalizeApiBaseUrl('http://localhost:4002');
 }
 
 export function getSupabaseRuntimeConfig() {
